@@ -6,7 +6,8 @@ const StyledGallery = styled.div`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  flex-grow: 1;
+  margin-top: -3px;
 `;
 
 const Container = styled.div`

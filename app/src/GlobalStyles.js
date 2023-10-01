@@ -39,6 +39,24 @@ const GlobalStyles = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+
+    @media screen and (max-width: 1050px) {
+    //do Smth
+      font-size: 56.25%; //9rem
+    }
+    @media screen and (max-width: 950px) {
+    //do Smth
+      font-size: 50%; //8rem
+    }
+    @media screen and (max-width: 950px) {
+    //do Smth
+      font-size: 43.75%; //7rem
+    }
+    
+    @media screen and (max-width: 350px) {
+    //do Smth
+      font-size: 43.75%; //7rem
+    }
   }
 
   body {

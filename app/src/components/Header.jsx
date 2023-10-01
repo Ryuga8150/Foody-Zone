@@ -6,7 +6,7 @@ import Search from "./Search";
 const StyledHeader = styled.div`
   background-color: #18181b;
   padding: 1.2rem 2.4rem;
-
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
